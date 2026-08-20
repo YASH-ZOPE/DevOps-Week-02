@@ -8,7 +8,7 @@ Essential Linux commands for system administrators, DevOps engineers, and develo
 
 ```bash
 # Print working directory
-pwd
+pwd 
 
 # List directory contents with detailed permissions and hidden files
 ls -la
