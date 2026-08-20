@@ -222,15 +222,15 @@ networks:
 # Start all services in detached mode
 docker compose up -d
 
-# Stop and remove containers, networks, and volumes created by up
+# Stop and remove containers, networks, and volumes created by up.
 docker compose down -v
 
-# View status of containers managed by compose
+# View status of containers managed by compose.
 docker compose ps
 
-# View logs for all services in compose file
+# View logs for all services in compose file.
 docker compose logs -f
 
-# Rebuild images and restart services
+# Rebuild images and restart services.
 docker compose up -d --build
 ```
